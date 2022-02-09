@@ -1,9 +1,10 @@
 import * as React from 'react';
 import {ButtonGroup, Button, ThemeProvider, createTheme } from '@material-ui/core';
+import './App.css';
 import { styled } from '@mui/material/styles';
 
 
-export default function GrupoBotao() {
+export default function Grupo2Botao() {
   const theme = createTheme({
     palette: {
       primary: {
@@ -26,7 +27,6 @@ export default function GrupoBotao() {
     backgroundColor: '#d8dce3',
     borderColor: 'black',
     color: 'black',
-    outline:'none',
 
     
     '&:hover': {
@@ -38,7 +38,6 @@ export default function GrupoBotao() {
       boxShadow: 'none',
       backgroundColor: '#ff5e00',
       borderColor: '#ff5e00',
-      outline: 'none',
     },
     '&:focus': {
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
@@ -50,15 +49,16 @@ export default function GrupoBotao() {
     <ThemeProvider theme={theme}>
       <ButtonGroup 
       disableElevation 
-      variant="contained" 
+      variant="outlined" 
       color="primary"
       size='large'
-
+    
       >
-        <EditarBotao>Bruto</EditarBotao>
-        <EditarBotao>Liquido</EditarBotao>
+      
+      <EditarBotao>PRÉ</EditarBotao>
+      <EditarBotao>POS</EditarBotao>
+        <EditarBotao>FIXADO</EditarBotao>
       </ButtonGroup>
     </ThemeProvider>
   );
 }
-

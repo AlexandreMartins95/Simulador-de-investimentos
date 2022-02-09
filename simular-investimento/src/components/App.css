@@ -6,8 +6,9 @@
 }
 
 body{
-    background-color: rgb(230,230,230);
+    background-color: rgb(220,220,220);;
     padding: 40px;
+    height: 100vh;
 }
 
 h1{
@@ -24,5 +25,24 @@ p{
 
 span{
     margin-right: 65px;
+    
 }
+
+.box-investimentos{
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-single{
+    width: 20%;
+}
+
+.box-wraper{
+    width: 100%;
+}
+
 
