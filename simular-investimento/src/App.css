@@ -16,17 +16,13 @@ h1{
     text-align: center;
 }
 
-p{
+.box-investimentos > p{
     font-weight: bold;
     font-size: 26px;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-span{
-    margin-right: 65px;
-    
-}
 
 .box-investimentos{
     width: 100%;
@@ -35,14 +31,26 @@ span{
 .center{
     display: flex;
     flex-wrap: wrap;
+   
+    height: 75vh;
+  
 }
 
 .box-single{
-    width: 20%;
+    width: 15%;
 }
 
 .box-wraper{
     width: 100%;
+    
 }
 
+.section2{
+    
+    width: 70%;
+}
 
+.section2 > p{
+    font-weight: bold;
+    font-size: 26px;
+}
